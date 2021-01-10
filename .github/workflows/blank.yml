@@ -32,7 +32,6 @@ jobs:
         run: |
           pip install psycopg2
           pip install pandas
-          pip install urllib
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
